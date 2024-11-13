@@ -1,0 +1,14 @@
+body{
+  background: rgb(0, 0, 0, 1);
+  Color: #fff;
+  display: grid;
+  font-family: sans-serif;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  display:flex;
+  flex-direction: column;
+  gap: 8px;
+}

@@ -1,0 +1,17 @@
+.ig-followCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .9rem;
+}
+
+.ig-followCard-header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ig-followCard-avatar{
+  height: 13vh;
+  width: 13vh;
+}
