@@ -20,6 +20,7 @@
 .ig-followCard-info{
   display: flex;
   flex-direction: column;
+  gap :5px;
 }
 
 .ig-followCard-infoUserName {
@@ -37,10 +38,38 @@
   padding: 8px 18px;
 }
 
+.ig-followCard-button:hover{
+  background-color: rgb(0, 83, 226);
+}
+
+.ig-followCard-button.is-following{
+  background-color:dimgrey;
+  border: solid 1px #000;
+  width: 165px;
+}
+
+.ig-followCard-button.is-following:hover{
+  background-color: rgb(61, 61, 61)
+}
+
 .ig-followCard-stopFollowing{
   display: none;
 }
 
-.ig-followCard-button .is-following{
-  
+.ig-followCard-text{
+  display: block;
+}
+
+.ig-followCard-button.is-following:hover .ig-followCard-text{
+  display: none;
+}
+
+.ig-followCard-button.is-following:hover .ig-followCard-stopFollowing{
+  display: block;
+}
+
+.ig-sureStop{
+  display: none;
+  place-content: center;
+  background-color: gray;
 }

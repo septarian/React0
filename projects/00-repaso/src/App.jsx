@@ -9,11 +9,11 @@ export function App () {
   return (
     <section className="App">
 
-      <InstagramFollowCard name='Erick Mora' userName='septarianlyrics8704' isFollowing/>
+      <InstagramFollowCard name='Erick Mora' userName='septarianlyrics8704' initialIsFollowing />
 
-      <InstagramFollowCard name='Daniel Mora' userName='dany_3' isFollowing={false}/>
+      <InstagramFollowCard name='Daniel Mora' userName='dany_3' initialIsFollowing={false} />
 
-      <InstagramFollowCard name='Wisky' userName='gato' isFollowing={false}/>
+      <InstagramFollowCard name='Wisky' userName='gato' initialIsFollowing />
 
     </section>
   )
