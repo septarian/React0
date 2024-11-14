@@ -12,8 +12,8 @@
 }
 
 .ig-followCard-avatar{
-  height: 13vh;
-  width: 13vh;
+  height: 10vh;
+  width: 10vh;
   border-radius: 1000px;
 }
 
@@ -35,4 +35,12 @@
   font-weight: bold;
   border-radius: 6px;
   padding: 8px 18px;
+}
+
+.ig-followCard-stopFollowing{
+  display: none;
+}
+
+.ig-followCard-button .is-following{
+  
 }

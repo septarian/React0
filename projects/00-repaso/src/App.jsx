@@ -5,8 +5,17 @@ import { InstagramFollowCard } from './InstagramFollowCard'
 
 
 export function App () {
+
   return (
-    <InstagramFollowCard />
+    <section className="App">
+
+      <InstagramFollowCard name='Erick Mora' userName='septarianlyrics8704' isFollowing/>
+
+      <InstagramFollowCard name='Daniel Mora' userName='dany_3' isFollowing={false}/>
+
+      <InstagramFollowCard name='Wisky' userName='gato' isFollowing={false}/>
+
+    </section>
   )
 }
 
