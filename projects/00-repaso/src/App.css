@@ -14,4 +14,25 @@
 .ig-followCard-avatar{
   height: 13vh;
   width: 13vh;
+  border-radius: 1000px;
+}
+
+.ig-followCard-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.ig-followCard-infoUserName {
+  opacity: .8;
+}
+
+.ig-followCard-button{
+  cursor:pointer;
+  background-color: rgb(23, 101, 235);
+  color:#fff;
+  border: 0;
+  margin-left: 170px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 8px 18px;
 }
