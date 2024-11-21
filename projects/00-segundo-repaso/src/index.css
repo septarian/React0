@@ -2,4 +2,13 @@ body {
   background: #000000e3;
   color: aliceblue;
   font-family: system-ui;
+  display:flex;
+  place-content: center;
+  margin-top: 300px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

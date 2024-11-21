@@ -6,24 +6,48 @@
 }
 
 .yt-suscriptionsCard{
-  display:flex;
-  place-content: center;
-  margin-top: 300px;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
 
+.yt-suscriptionsCard:hover {
+  background-color:dimgray
 }
 
 .yt-suscriptionsCard-header{
   display:flex;
   align-items: center;
+  padding: 7px 10px;
 }
 
 .yt-suscriptionCard-img{
   border-radius: 200px;
   width: 40px;
   max-height: fit-content;
+  margin-right: 20px;
+}
+
+.yt-suscriptionCard-par{
+  display: flex;
+  width: 170px;        /* Ancho máximo del contenedor */
+  justify-content: space-between;
 }
 
 .yt-suscriptionCard-text{
-  margin-left: 30px;
+  display: inline-block; /* Asegura que funcione con truncado */
+  overflow: hidden;      /* Oculta contenido excedente */
+  text-overflow: ellipsis; /* Trunca el texto con puntos suspensivos */
+  white-space: nowrap;    /* No permite saltos de línea */
 }
+
+.yt-suscriptionCard-icon{
+  visibility: visible;
+}
+
+.yt-suscriptionCard-iconInvisible{
+  visibility: hidden;
+}
+
 
