@@ -16,8 +16,13 @@ const array = [{
   }];
   
   function toCollection(par) {
-
+    let arr = []
+    for(let idx in par) {
+        arr[idx] = par
+    }
+    return arr
   }
   
   let resultado = toCollection(pares);
   console.log(resultado);
+  console.log(array);
