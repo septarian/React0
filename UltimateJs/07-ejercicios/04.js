@@ -6,7 +6,13 @@ let objeto = {
 }
 
 function cualesMetodos(obj) {
-    
-}
 
+    for (i in obj){
+        if (typeof obj[i] == "function" ){
+            console.log(i)
+        }
+    }
+}
+console.log(typeof objeto.login)
 cualesMetodos(objeto)
+ 
