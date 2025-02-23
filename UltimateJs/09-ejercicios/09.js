@@ -19,21 +19,23 @@ const users = usuarios.map(u => {
 })
 
 const globalUser = users
-                        .concat(user)
+                        .concat(user)               // globalUser = [...users ...user]
                         .sort((a, b) => {
-                            if (a.age < b.age ){
+                            if (a.age > b.age ){
                                 return -1
                             }
-                            if (a.age > b.age ){
+                            if (a.age < b.age ){
                                 return 1
                             }
                             return 0
                         })
                         
 
-list = globalUser.map(n => `<li> Nombre: ${n.name}, Edad: ${n.age} </li>`)
+list = globalUser.map(n =>
+    `<li> Nombre: ${n.name}, Edad: ${n.age} </li>`)
 
-html = `<ol> 
+html =`
+<ol> 
     ${list.join(`
     `)}
 </ol>`
