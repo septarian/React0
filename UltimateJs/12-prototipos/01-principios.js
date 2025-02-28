@@ -1,0 +1,36 @@
+//ENCAPSULACIÓN
+
+// const user = {
+//     nombre: 'hola',
+//     apellido: 'mundo',
+//     nombreCompleto() {
+//         return [this.apellido, this.apellido].join('')
+//     }
+// }
+// console.log(user.nombreCompleto());
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//ABSTRACCIÓN
+
+// const user = new User();
+// user.password = 'hola';
+// user.save();
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//HERENCIA 
+
+User
+Restaurante             //TODOS --> FUNCION CONSTRUCTORA PADRE    -->     ID, NAME, GUARDAR()
+Motociclista
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//POLIMORFISMO
+
+function validaEntidad(entidad){
+    //...
+
+    entidad.save()
+}
